@@ -7,7 +7,7 @@
 # построить список невыполненных дел в порядке срока давности.
 
 import sys
-from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton, QListWidget, QLineEdit, QDateTimeEdit,
+from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QPushButton, QLineEdit, QDateTimeEdit,
                              QComboBox, QMessageBox)
 from PyQt6.QtCore import QDateTime
 import MySQLdb
